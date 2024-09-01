@@ -1,0 +1,75 @@
+.button {
+    color:#06c;
+    text-decoration:underline
+}
+	.button:hover, .button:focus {
+		color:#09f
+	}
+
+#inline { display: none; width: 600px; }
+
+/* --- The Form --- */
+#contactForm {  }
+
+#contactForm fieldset {
+    border: 1px solid #EEEEEE;
+    padding: 20px;
+	border-radius: 3px;
+}
+
+#contactForm legend {
+    border: 1px solid #EEEEEE;
+    color: #333;
+    margin-bottom: 0 !important;
+    padding: 7px 10px;
+	font-weight: bold;
+	border-radius: 3px;
+}
+
+#contactForm label {
+    display: inline-block;
+    float: left;
+    font-size: 1em;
+    height: 26px;
+    line-height: 26px;
+    width: 155px;
+}
+
+#contactForm input, #contactForm textarea, #contactForm select {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #CCCCCC;
+    color: #666666;
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light","Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    margin: 5px 0;
+    padding: 5px;
+    width: 360px;
+	border-radius: 3px;
+}
+
+#contactForm .button { background-color: #06c;
+    background-image: -webkit-linear-gradient(hsla(0,0%,100%,.15), hsla(0,0%,0%,0));
+    background-image: -moz-linear-gradient(hsla(0,0%,100%,.15), hsla(0,0%,0%,0));
+    background-image: -ms-linear-gradient(hsla(0,0%,100%,.15), hsla(0,0%,0%,0));
+    background-image: -o-linear-gradient(hsla(0,0%,100%,.15), hsla(0,0%,0%,0));
+    background-image: linear-gradient(hsla(0,0%,100%,.15), hsla(0,0%,0%,0));
+    border: 1px solid #111;
+    color: #c6c6c6;
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light","Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px hsla(0,0%,0%,.8);
+    vertical-align: top;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 5px 20px 10px 155px; }
+
+#contactForm input:focus, #contactForm textarea:focus { border: 1px solid #eee; color: #444; background: #fff; }
+
+#contactForm .error { border: 1px solid #973d3d; background: #f0bebe; color: #a35959; }
+#contactForm .error:focus { border: 1px solid #eee; color: #a35959; }       
